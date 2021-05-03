@@ -102,7 +102,7 @@ def hangman(secretWord):
     Follows the other limitations detailed in the problem write-up.
     '''
     print("Welcome to the game, Hangman!")
-    print("I am thinking of a word that is",len(secretWord),"letters long.")
+    print("I am thinking of a capital of an African country that is",len(secretWord),"letters long.")
     
     global lettersGuessed
     mistakeMade=0
