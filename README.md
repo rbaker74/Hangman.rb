@@ -11,3 +11,4 @@ Hope you enjoy this game.
 Any modification in this game would be highly appreciated.
 # Future Features
 Custom tailored word list to African culture and trivia. 
+#IS Test for proj demo
