@@ -1,9 +1,10 @@
-[x] create repository 
-[x] create readme
+[x] get repository
+[] update readme
 [x] found reference for project
-[x] tested and run the program
+[x] tested and run program
 [x] create projectroadmap
-[x] Develop wordlist
-[x] create a new word pool for updated game
-[x] finalize
-[x] end
+[x] create new word lists
+[x] create options to choose word list for game
+[x] create word pool for updated game choice
+[] finalize
+[] submit
