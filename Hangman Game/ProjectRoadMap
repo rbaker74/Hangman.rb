@@ -1,10 +1,12 @@
 [x] get repository
-[] update readme
+[x] update readme
 [x] found reference for project
 [x] tested and run program
 [x] create projectroadmap
-[x] create new word lists
-[x] create options to choose word list for game
-[x] create word pool for updated game choice
-[] finalize
+[x] create new word lists - holiday
+[x] create options to choose word list for game 
+[x] create word pool for updated game choice - holiday.txt
+[x] add intro statement for holiday game choice
+[x] test and run program
+[x] finalize
 [] submit
