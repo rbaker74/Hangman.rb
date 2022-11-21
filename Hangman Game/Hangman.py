@@ -2,6 +2,8 @@
 import random
 
 WORDLIST_FILENAME = "words.txt"
+WORDLIST_FILE2 = "holiday.txt"
+gamechoice = input("choose a game. enter 'h' for holiday or 'a' for african capitals:")
 
 def loadWords():
     """
@@ -10,15 +12,26 @@ def loadWords():
     Depending on the size of the word list, this function may
     take a while to finish.
     """
-    print("Loading word list from file...")
-    # inFile: file
-    inFile = open(WORDLIST_FILENAME, 'r')
-    # line: string
-    line = inFile.readline()
-    # wordlist: list of strings
-    wordlist = line.split()
-    print("  ", len(wordlist), "words loaded.")
-    return wordlist
+    if gamechoice == 'h':
+        print("Loading word list from file...")
+        # inFile: file
+        inFile = open(WORDLIST_FILE2, 'r')
+        # line: string
+        line = inFile.readline()
+        # wordlist: list of strings
+        wordlist = line.split()
+        print("  ", len(wordlist), "words loaded.")
+        return wordlist
+    elif gamechoice == 'a':
+        print("Loading word list from file...")
+        # inFile: file
+        inFile = open(WORDLIST_FILENAME, 'r')
+        # line: string
+        line = inFile.readline()
+        # wordlist: list of strings
+        wordlist = line.split()
+        print("  ", len(wordlist), "words loaded.")
+        return wordlist
 
 def chooseWord(wordlist):
     """
@@ -102,7 +115,10 @@ def hangman(secretWord):
     Follows the other limitations detailed in the problem write-up.
     '''
     print("Welcome to the game, Hangman!")
-    print("I am thinking of a capital of an African country that is",len(secretWord),"letters long.")
+    if gamechoice == "h":
+        print("I am thinking of a holiday themed word that is",len(secretWord),"letters long.")
+    elif gamechoice == "a":
+        print("I am thinking of a capital of an African country that is",len(secretWord),"letters long.")
     
     global lettersGuessed
     mistakeMade=0
