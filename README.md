@@ -12,3 +12,5 @@ Any modification in this game would be highly appreciated.
 # Future Features
 Custom tailored word list to African culture and trivia. 
 #IS Test for proj demo
+# New Features
+added Holiday themed list; choose between African culture or Holiday
