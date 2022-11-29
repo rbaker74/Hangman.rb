@@ -13,4 +13,4 @@ Any modification in this game would be highly appreciated.
 Custom tailored word list to African culture and trivia. 
 #IS Test for proj demo
 # New Features
-added Holiday themed list; choose between African culture or Holiday
+added Holiday and Birds themed lists; choose between African culture (easy), Holiday (medium), or Birds (hard) game!
