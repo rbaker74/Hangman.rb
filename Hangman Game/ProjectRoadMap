@@ -1,18 +1,12 @@
 [x] get repository
-[x] update readme
-[x] found reference for project
-[x] tested and run program
-[x] create projectroadmap
-[x] create new word lists - holiday
-[x] create options to choose word list for game 
-[x] create word pool for updated game choice - holiday.txt
-[x] add intro statement for holiday game choice
-[x] test and run program
-#for sprint 3, add another game choice
-[] create new word list - birds
-[] create options to choose word list for game
-[] create word pool for updated game choice - birds.txt
-[] add intro statement for birds game choice
-[] test and run program
-[] finalize
-[] submit
+[x] Update Readme
+[x] Found reference for project
+[x] Tested and run program
+[x] Create projectroadmap
+[x] Create new word list - holiday, birds
+[x] Create word pool for updated game choices - holiday.txt, birds.txt
+[x] Create an option to choose easy, medium, hard
+[x] Add intro statement for all game choices
+[x] Test and run programs 
+[x] Finalize
+[x] Submit
