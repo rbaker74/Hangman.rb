@@ -3,7 +3,7 @@ import random
 
 WORDLIST_FILENAME = "words.txt"
 WORDLIST_FILE2 = "holiday.txt"
-gamechoice = input("choose a game. enter 'h' for holiday or 'a' for african capitals:")
+gamechoice = input("choose a game. enter 'e' for Easy, 'm' for Medium, or 'h' for Hard:")
 
 def loadWords():
     """
